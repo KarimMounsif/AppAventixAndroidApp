@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+    <!--
+    <item android:id="@+id/logo"
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@mipmap/ic_aventix_round"
+        />
+-->
+    <item android:title="@string/settings"
+        android:id="@+id/action_settings"
+        app:showAsAction="never"
+        android:orderInCategory="99"/>
+
+    <item android:title="@string/deconnection"
+        android:id="@+id/deconnection"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        />
+
+    <item android:icon="@drawable/ic_chevron_left_black_24dp"
+
+        android:id="@+id/retour_arriere"
+        app:showAsAction="always"
+        android:title="retour" />
+
+
+
+</menu>

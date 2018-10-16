@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/colorPrimary" />
+
+    <item>
+        <bitmap
+            android:antialias="false"
+            android:autoMirrored="false"
+            android:gravity="center"
+            android:src="@drawable/ic_aventix_round" />
+
+    </item>
+
+</layer-list>

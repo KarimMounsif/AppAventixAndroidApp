@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <include android:id="@id/toolbar"
+        layout="@layout/toolbar_commercant"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        >
+
+
+
+
+
+        <Button
+            android:id="@+id/scan_qrcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_red"
+            android:text="@string/scan_qrcode"
+            android:textColor="@color/cardview_light_background"
+            android:theme="@style/AlertDialog.AppCompat"
+            android:layout_marginTop="150dp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/transaction_commercant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scan_qrcode"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_red"
+            android:text="@string/historique_transaction_commercant"
+            android:textColor="@color/cardview_light_background"
+            android:theme="@style/AlertDialog.AppCompat"
+            android:layout_marginTop="100dp"
+            style="?android:attr/borderlessButtonStyle"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

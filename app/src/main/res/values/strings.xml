@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">QRCT</string>
+    <string name="title_activity_login">Connection</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Se connecter(Employé)</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Cet email est invalide</string>
+    <string name="error_invalid_password">Mot de passe incorrect</string>
+    <string name="error_incorrect_password">Mot de passe incorrect</string>
+    <string name="error_field_required">Ce champs est requis</string>
+    <string name="permission_rationale">"Permission d'accéder au contact est demandée pour pouvoir compléter l'adresse mail automatiquement
+    </string>
+    <string name="activer_camera">Activation de la camera</string>
+    <string name="voir_qr_code">Voir mon QR Code</string>
+    <string name="lister_restaurants">Restaurants</string>
+    <string name="consulter_solde">Solde</string>
+    <string name="settings">Paramètres</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_settings">Paramètres</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silencieux</string>
+
+    <string name="default_gallery_storage">Mes vidéos</string>
+    <string name="title_auto_upload">Téléchargement automatique</string>
+    <string name="summary_upload_over_wifi">Télécharger les vidéos quand vous êtes connectés en WiFi</string>
+    <string name="title_upload_quality">Qualité de téléchargement</string>
+    <string name="summary_upload_video_quality">Spécifier la qualité de vidéo pour le téléchargement</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choisir le son des notifications</string>
+    <string name="pref_header_about">A propos</string>
+    <string name="summary_about">QRCT est une équipe de jeunes étudiants de l'INSA, motivés et super forts !</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Des questions? Contactez-nous</string>
+    <string name="title_send_feedback">Envoyez-nous un feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">Voir les questions posées fréquentes</string>
+    <string name="url_faq">https://www.qrct.com</string>
+    <string name="privacy_policy">Politiques de confidentialités</string>
+    <string name="url_privacy">https://www.qrct.info/privacy-policy/</string>
+    <string name="title_terms">Termes &amp; Conditions</string>
+    <string name="url_terms">https://www.qrct.info/terms-of-service/</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choisir email client</string>
+    <string name="title_gallery_storage">Stockage par défaut</string>
+    <string name="title_new_notification_sound">Notification de nouveau message</string>
+    <string name="title_vibrate">Vibrer</string>
+    <string name="summary_vibrate">Vibrer pour une nouvelle notification</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="deconnection">Se déconnecter</string>
+    <string name="solde_journalier_restant">Votre solde journalier restant :</string>
+    <string name="solde_restant_au_mois">Votre solde restant (au mois) :</string>
+    <string name="info_compte">Informations du compte</string>
+    <string name="membership_date">Membre depuis :</string>
+    <string name="historique">Votre historique</string>
+    <string name="que_faire">Que voulez-vous faire?</string>
+    <string name="ouvrir_trajet_sur_gmaps">M'y rendre</string>
+    <string name="id_transaction">ID transaction:</string>
+    <string name="montant_transaction">Montant</string>
+    <string name="date_transaction">Date de la transaction</string>
+    <string name="scan_qrcode">Scanner le QR Code</string>
+    <string name="historique_transaction_commercant">Consulter historique des transactions</string>
+</resources>

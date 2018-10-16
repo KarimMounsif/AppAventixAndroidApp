@@ -1,0 +1,13 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="aventix"
+        android:enabled="true"
+        android:icon="@drawable/ic_aventix_round">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.ComposeActivity" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
