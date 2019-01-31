@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.tve.lectureqrcode"
+    package="com.example.km.qrcodepay"
     android:versionCode="1"
     android:versionName="0.1">
 
@@ -21,11 +21,11 @@
         android:icon="@mipmap/ic_aventix_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".utilitaire.DelayerStart">
+        android:name="com.example.km.qrcodepay.utilitaire.DelayerStart">
 
         <!-- déclaration des activités -->
 
-        <activity android:name=".utilitaire.SplashActivity" android:theme="@style/SplashTheme">
+        <activity android:name="com.example.km.qrcodepay.utilitaire.SplashActivity" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -33,7 +33,7 @@
         </activity>
 
 
-        <activity android:name=".Login.LoginActivity"
+        <activity android:name="com.example.km.qrcodepay.Login.LoginActivity"
             android:screenOrientation="portrait">
             <!--
             <intent-filter>
@@ -46,60 +46,60 @@
         </activity>
 
         <activity
-            android:name=".QRCode.GenerateQRCodeActivity"
+            android:name="com.example.km.qrcodepay.QRCode.GenerateQRCodeActivity"
             android:label="Votre identifiant de paiement"
             android:screenOrientation="portrait"/>
-        <activity android:name=".MainPage.MainActivity" android:noHistory="false"
+        <activity android:name="com.example.km.qrcodepay.MainPage.MainActivity" android:noHistory="false"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".QRCode.LectureQRcodeActivity"
+            android:name="com.example.km.qrcodepay.QRCode.LectureQRcodeActivity"
             android:label="lecture qr code"
             android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name=".MainPage.MainActivityCommercant" android:noHistory="false"
+        <activity android:name="com.example.km.qrcodepay.MainPage.MainActivityCommercant" android:noHistory="false"
             android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name=".Historique.TransactionCommercantActivity"
+        <activity android:name="com.example.km.qrcodepay.Historique.TransactionCommercantActivity"
             android:label="Historique de vos transactions"
             android:screenOrientation="portrait">
 
         </activity>
 
         <activity
-            android:name=".Restaurant.RestaurantActivity"
+            android:name="com.example.km.qrcodepay.Restaurant.RestaurantActivity"
             android:label="Réstaurants à proximité"
             android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name=".Parametres.SettingsActivity"
+        <activity android:name="com.example.km.qrcodepay.Parametres.SettingsActivity"
             android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name=".ConsulterSolde.ConsulterSoldeActivity"
+        <activity android:name="com.example.km.qrcodepay.ConsulterSolde.ConsulterSoldeActivity"
             android:screenOrientation="portrait"
             android:label="Votre Solde">
 
         </activity>
 
 
-        <activity android:name=".Historique.HistoriqueActivity"
+        <activity android:name="com.example.km.qrcodepay.Historique.HistoriqueActivity"
             android:label="Historique de vos achats"
             android:screenOrientation="portrait">
 
         </activity>
 
-        <activity android:name=".Login.ChangerMdpActivity"
+        <activity android:name="com.example.km.qrcodepay.Login.ChangerMdpActivity"
             android:label="Changement de mot de passe"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name=".Login.ChangerMdpCommercantActivity"
+        <activity android:name="com.example.km.qrcodepay.Login.ChangerMdpCommercantActivity"
             android:label="Changement de mot de passe"
             android:screenOrientation="portrait">
         </activity>

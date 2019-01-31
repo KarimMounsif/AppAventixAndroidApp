@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/lightgray"
     android:orientation="vertical"
-    tools:context="com.example.tve.lectureqrcode.MainPage.MainActivity">
+    tools:context="com.example.km.qrcodepay.MainPage.MainActivity">
     <!-- android:gravity="center"
     android:padding=""-->
 

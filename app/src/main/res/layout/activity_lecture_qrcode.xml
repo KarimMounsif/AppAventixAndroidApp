@@ -16,7 +16,7 @@
     android:paddingBottom="15dp"
     android:paddingLeft="15dp"
     android:paddingRight="15dp"
-    tools:context="com.example.tve.lectureqrcode.QRCode.LectureQRcodeActivity">
+    tools:context="com.example.km.qrcodepay.QRCode.LectureQRcodeActivity">
 
 
     <TextView

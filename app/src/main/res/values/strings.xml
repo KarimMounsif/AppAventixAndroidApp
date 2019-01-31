@@ -32,7 +32,7 @@
     <string name="pref_title_notifications">Notifications</string>
     <string name="summary_choose_ringtone">Choisir le son des notifications</string>
     <string name="pref_header_about">A propos</string>
-    <string name="summary_about">QRCT est une équipe de jeunes étudiants de l'INSA, motivés et super forts !</string>
+    <string name="summary_about">QRCT est une équipe de jeunes étudiants de l\'INSA, motivés et super forts !</string>
     <string name="app_version">1.0</string>
     <string name="summary_support">Des questions? Contactez-nous</string>
     <string name="title_send_feedback">Envoyez-nous un feedback</string>
@@ -63,7 +63,7 @@
     <string name="membership_date">Membre depuis :</string>
     <string name="historique">Votre historique</string>
     <string name="que_faire">Que voulez-vous faire?</string>
-    <string name="ouvrir_trajet_sur_gmaps">M'y rendre</string>
+    <string name="ouvrir_trajet_sur_gmaps">M\'y rendre</string>
     <string name="id_transaction">ID transaction:</string>
     <string name="montant_transaction">Montant</string>
     <string name="date_transaction">Date de la transaction</string>
